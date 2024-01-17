@@ -1,0 +1,118 @@
+.header {
+  padding: 1rem 0;
+  &__left {
+    gap: 5rem;
+    &--logo {
+      a {
+        img {
+          width: 15.2rem;
+        }
+      }
+    }
+    &-menu {
+      ul {
+        gap: 3rem;
+        li {
+          a {
+            font-size: 1.6rem;
+            font-weight: 500;
+            transition: 0.3s;
+            &:hover {
+              color: $accent-color;
+            }
+          }
+          &.dropBrand {
+            .header__center-main-b {
+              position: absolute;
+              top: 7.3rem;
+              transform: scaleY(0);
+              z-index: 9;
+              background: #fff;
+              min-width: 90%;
+              height: max-content;
+              left: 10rem;
+              transition: 0.4s;
+              grid-template-columns: repeat(4, 1fr);
+              display: grid;
+              border-radius: 1rem;
+              border: 1px solid #ddd;
+              transform-origin: top;
+              padding: 2rem 4rem;
+      
+              &B {
+                li {
+                  a {
+                    display: block;
+                    padding: 1rem 2rem;
+                    &:hover {
+                      color: #1e2125;
+                      background-color: #e9ecef;
+                    }
+                    img {
+                      width: 3.5rem;
+                    }
+                    span {
+                    }
+                  }
+                }
+              }
+            }
+            &:hover {
+              .header__center-main-b {
+                transform: scaleY(1);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &__right {
+    gap: 2rem;
+    &de {
+      gap: 3rem;
+      li {
+        gap: 1rem;
+        img {
+          width: 2.5rem;
+        }
+        &.email {
+          a {
+            font-size: 1.4rem;
+            font-weight: 500;
+          }
+        }
+        &.phone {
+          a {
+            font-size: 2rem;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+
+    &de2 {
+      gap: 2rem;
+      li {
+        &.whatsapp {
+          a {
+            background: #29a71a;
+            width: 6rem;
+            height: 5.8rem;
+            border-radius: 0.5rem;
+            color: #fff;
+            display: grid;
+            place-items: center;
+            i {
+              font-size: 3rem;
+              transition: .3s;
+              &:hover {
+                transform: rotate(360deg);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

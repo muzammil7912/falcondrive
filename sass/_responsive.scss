@@ -1,0 +1,381 @@
+@media only screen and (max-width: 979px) {
+  .container {
+    max-width: 98%;
+  }
+  .grid-col70 {
+    grid-template: auto/5fr 90fr 5fr;
+  }
+  .grid-col60 {
+    grid-template: auto/5fr 90fr 5fr;
+  }
+  .mobilenav {
+    display: block !important;
+    border-radius: 0.5rem;
+    background: #000;
+    padding: 1rem 1rem;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  .header {
+    &__left {
+      &-menu {
+        display: none;
+      }
+    }
+    &__right {
+      ul {
+        display: none !important;
+      }
+    }
+  }
+
+  .banner {
+    .swiper-paginationbanner {
+      display: none;
+    }
+    &_ {
+      display: block;
+      &_left {
+        text-align: center;
+        h1 {
+          font-size: 7rem;
+        }
+        p,
+        .btn-secondary {
+          display: none;
+        }
+      }
+
+      &_center {
+        .img1 {
+          width: 37rem;
+          display: block;
+          margin: 0 auto;
+        }
+        .img2 {
+          position: relative;
+          width: 55rem;
+          margin: 0 auto;
+          display: block;
+          bottom: 0;
+          margin-bottom: -15rem;
+          left: 0;
+        }
+      }
+
+      &_right {
+        display: none;
+      }
+    }
+  }
+
+  .section1 {
+    padding: 15rem 0 4rem;
+    &btn {
+      display: block;
+      max-width: 100%;
+      width: fit-content;
+      margin: 0 auto;
+    }
+    &__heading {
+      width: 100%;
+      margin-top: 5rem;
+      h2 {
+        font-size: 3.5rem;
+        line-height: 1;
+      }
+    }
+    &__List {
+      ul {
+        li {
+          img {
+            width: 8rem;
+          }
+        }
+      }
+    }
+    &__Main {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      &--Box {
+        &__body {
+          ul {
+            li {
+              p {
+                font-size: 1.5rem;
+              }
+              .h5 {
+                font-size: 1.6rem;
+              }
+            }
+          }
+          .btn {
+            font-size: 1.4rem;
+            padding: 1rem 1.2rem;
+            &.whatsapp {
+            }
+          }
+        }
+      }
+    }
+    .entire {
+      background: linear-gradient(
+        108deg,
+        #b27f2a 4.92%,
+        #ffea7c 67.46%,
+        #b27f2a 85.22%
+      );
+      line-height: 1;
+      span {
+        background: transparent;
+        background-clip: unset;
+        -webkit-background-clip: unset;
+        -webkit-text-fill-color: unset;
+        color: #000;
+      }
+    }
+  }
+
+  .section2 {
+    &_ {
+      width: 100%;
+
+      h3 {
+        font-size: 3.5rem;
+      }
+
+      &mb {
+        b {
+          display: block;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
+  .section3 {
+    padding: 6rem 0;
+    border-radius: 3rem;
+    &::before {
+        border-radius:3rem;
+    }
+    .block__inner {
+      min-width: 0;
+    }
+    &__heading {
+      display: block !important;
+      text-align: center;
+      .h4 {
+        font-size: 3.5rem;
+        line-height: 1;
+        br {
+            display: none;
+        }
+      }
+    }
+    &__Main {
+      display: none;
+    }
+    &__Main2 {
+      display: block !important;
+    }
+  }
+  .section4 {
+    .block__inner {
+      min-width: 0;
+    }
+    &__heading {
+        h4 {
+            font-size: 3.5rem;
+        }
+    }
+    &Main {
+      display: none;
+
+      &2 {
+        display: block;
+      }
+    }
+  }
+
+  .section5 {
+    &::before {
+      // background-size: 100% 100%;
+    }
+    &__heading {
+      h4 {
+        font-size: 3.5rem;
+        line-height: 1;
+      }
+      p {
+        font-size: 2rem;
+        line-height: 3.1rem;
+      }
+    }
+    &Bottom {
+      .swiper-slide-active {
+        .card3 {
+          &__img {
+            img {
+              width: 8.1rem;
+              height: 8.1rem;
+            }
+          }
+          .h4 {
+            left: -7rem;
+          }
+          p {
+            left: -7rem;
+          }
+        }
+      }
+      .card3 {
+        &__img {
+          img {
+            outline-offset: 0.6rem;
+            width: 4.3rem;
+            height: 4.3rem;
+          }
+        }
+      }
+    }
+  }
+
+  .section6 {
+    .h4 {
+      font-size: 3.5rem;
+    }
+    .h6 {
+      font-size: 3.3rem;
+    }
+    .img1 {
+      right: -6rem;
+    }
+    &_h {
+      img {
+        display: none;
+      }
+      span {
+        font-size: 3.3rem;
+      }
+    }
+  }
+
+  .section7 {
+    .section9__h {
+      .h3 {
+        font-size: 3.5rem;
+      }
+      &btn {
+        display: none;
+      }
+    }
+    &B {
+      grid-template-columns: 1fr;
+
+      &_right {
+        &B {
+          grid-template-columns: 1fr;
+          gap: 0;
+        }
+      }
+    }
+  }
+
+  .section9 {
+    &__h {
+      &btn {
+        display: none;
+      }
+    }
+
+    &__hbtna {
+      display: block !important;
+      width: fit-content;
+      margin: 4rem auto 0;
+    }
+  }
+
+  .footer {
+    &__top {
+      display: none;
+    }
+    .footer__Bottom_BoxM {
+      display: block !important;
+     ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        justify-content: center;
+        li {
+            a {
+              color: #fff;
+              font-size: 1.4rem;
+            }
+          }
+     }
+    }
+    &__Bottom { 
+        &_ {
+            grid-template-columns: 1fr;
+            &Box {
+                .h5 {
+                    font-size: 1.5rem;
+
+                }
+            }
+        }
+        &term {
+            ul {
+                justify-content: flex-start;
+                flex-direction: column  ;
+                gap: .5rem;
+                li {
+
+                }
+                span {
+                    display: none;
+                }
+            }
+        }
+    }
+  }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .banner {
+        &__left  {
+            h1 {
+                font-size: 5rem;
+            }
+        }
+        &__center {
+            .img2 {
+                width: 100%;
+            }
+        }
+    }
+.section1 {
+    &__Main {
+        grid-template-columns: 1fr;
+    }
+    &__List {
+        ul {
+            gap: 2rem;
+            li {
+                img {
+                    width: 6rem;
+                }
+                p {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+    }
+}
+}
