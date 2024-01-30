@@ -61,6 +61,10 @@
     transition: 0.5s;
     display: flex;
     align-items: center;
+    &:focus,
+    &:hover {
+      background-color: $secondary-color;
+    }
     span {
       position: relative;
       margin-left: 1rem;

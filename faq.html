@@ -1,0 +1,951 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+      <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper/swiper-bundle.min.css"
+      />
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="./css/normalize.css" />
+      <link rel="stylesheet" href="./sass/main.css?3333" />
+
+      <title>falcondrive</title>
+    </head>
+
+    <body>
+      <div class="backBOx"></div>
+      <header class="header">
+        <div class="container-fluid d-flex justify-content-between">
+          <div class="header__left d-flex align-items-center">
+            <div class="header__left--logo">
+              <a href="index.html">
+                <img src="webImages/logo.webp" alt="falcon drive" />
+              </a>
+            </div>
+            <div class="header__left-menu">
+              <nav>
+                <ul class="list d-flex">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="aboutus.html">About</a></li>
+                  <li><a href="#">Fleet</a></li>
+                  <li class="dropBrand">
+                    <a href="#">Brands</a>
+                    <div class="header__center-main-b">
+                      <div class="header__center-main-bB">
+                        <ul class="list">
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/K9nB8hyEiDOdAbQYu4iy.webp"
+                                alt=""
+                              />
+                              <span>Audi</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/eyrnXtYKdG9UyOr18dBZ.webp"
+                                alt=""
+                              />
+                              <span>Bentley</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/Q1xtimzbCf0iNo8IEFUP.jpeg"
+                                alt=""
+                              />
+                              <span>BMW</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/OqUU8OGwI5OUG6GXxwUC.webp"
+                                alt=""
+                              />
+                              <span>Cadillac</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/06GdTyI3WQXIn6u4RaJQ.webp"
+                                alt=""
+                              />
+                              <span>Chevrolet</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/bN5YXhLfc49an3rc1Wk5.webp"
+                                alt=""
+                              />
+                              <span>Dodge</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/GfV8mPtozdhOrCtTTizl.jpg"
+                                alt=""
+                              />
+                              <span>Toyota</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="header__center-main-bB">
+                        <ul class="list">
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/Kp6XFqfz90Wm72S5FLo2.webp"
+                                alt=""
+                              />
+                              <span>Ferrari</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/qNzWJZ3upymxAFMFPeMa.jpg"
+                                alt=""
+                              />
+                              <span>Ford</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/wLSjyib5LEfd6L04I3Fr.webp"
+                                alt=""
+                              />
+                              <span>Hyundai</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/JA3ILXSsACWsaXtvvJnr.jpeg"
+                                alt=""
+                              />
+                              <span>Infiniti</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/E3jxTY08MgBBICEfrfbN.webp"
+                                alt=""
+                              />
+                              <span>Kia</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/tgZJt0EhMdWdXYjScyq0.webp"
+                                alt=""
+                              />
+                              <span>Lamborghini</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/yiYaO9XAdw316YZV2lOT.jpg"
+                                alt=""
+                              />
+                              <span> Land Rover</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="header__center-main-bB">
+                        <ul class="list">
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/IuQENh5MAHeEoipZUovX.jpg"
+                                alt=""
+                              />
+                              <span>Lexus</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/T2SBTiIMVX2egnsLLV9h.webp"
+                                alt=""
+                              />
+                              <span>Mazda</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/5W5rnQ468igHCDxO6tbH.webp"
+                                alt=""
+                              />
+                              <span>McLaren</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/XELWHdhBqvPJ1oQJzTvs.webp"
+                                alt=""
+                              />
+                              <span>Mercedes</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/aHAiUJdJBx8lPKjoUnki.webp"
+                                alt=""
+                              />
+                              <span>MG</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/xtkZpGT3GZCC1603dsiW.jpg"
+                                alt=""
+                              />
+                              <span>Mini</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/Ifbf1Xvz1Suc8sEXv9V3.webp"
+                                alt=""
+                              />
+                              <span>Mitsubishi</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="header__center-main-bB">
+                        <ul class="list">
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/uhRJCtTHghHEnX9pf6z9.webp"
+                                alt=""
+                              />
+                              <span>Nissan</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/0sPEnQ45zecOVQse88rj.webp"
+                                alt=""
+                              />
+                              <span>Opel</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/dk0fJJoY9J0F96Nl0N34.webp"
+                                alt=""
+                              />
+                              <span>Peugeot</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/bsuaiK91URzOVEIgg4yG.jpeg"
+                                alt=""
+                              />
+                              <span>Porsche</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/SikWOiNF1kLOrVFV5Gf9.webp"
+                                alt=""
+                              />
+                              <span>Rolls Royce</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="">
+                              <img
+                                src="webImages/headerIcon/AcLBG3cxxdrBwJxHcRu2.webp"
+                                alt=""
+                              />
+                              <span>Tesla</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="contact.html">Contact us</a></li>
+                </ul>
+              </nav>
+              <a href="#" data-toggle="modal" data-target="#exampleModal" class="btn btn-secondary d-none">Send Enquiry</a>
+            </div>
+          </div>
+          <!-- close header__left  -->
+  
+          <div class="header__right d-flex align-items-center">
+            <ul class="list header__rightde d-flex align-items-center">
+              <li class="email d-flex align-items-center">
+                <img
+                  src="webImages/icon/email.webp"
+                  alt="operations@falcondrive.ae"
+                />
+                <a href="#">operations@falcondrive.ae</a>
+              </li>
+              <li class="phone d-flex align-items-center">
+                <img src="webImages/icon/phone.webp" alt="971508201505" />
+                <a href="tel:+971508201505">+971 50 820 1505</a>
+              </li>
+            </ul>
+            <ul class="list header__rightde2 d-flex align-items-center">
+              <li class="languagess">
+                <a href="#" >عربي</a>
+              </li>
+              <li class="booking">
+                <button class="btn btn-primary"  data-toggle="modal" data-target="#exampleModal"><span>Book Now</span></button>
+              </li>
+            </ul>
+            <div class="mobilenav d-none">
+              <img data-srcs="webImages/nav.webp" src="webImages/nav.webp" alt="" />
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- close header  -->
+      <!-- close header  -->
+      <main class="innerPages">
+          <section class="aboutBanner">
+            <div class="container-fluid">
+              <div class="navigationss">
+                <ul class="list d-flex">
+                  <li><a href="#">Home</a>&nbsp; - &nbsp;</li>
+                  <li><span>FAQS</span></li>
+                </ul>
+              </div>  
+            </div>
+          </section>
+          <section class="section9 grid grid-col70">
+              <div class="block__inner">
+                <div
+                  class="section9__h d-flex justify-content-between align-items-center"
+                >
+                  <div class="h3">Frequently Asked Questions</div>
+                  <a href="#" class="section9__hbtn">View All</a>
+                </div>
+                <div class="section9_Body">
+                  <div class="section9_Body-">
+                    <div class="section9_Body-Box">
+                      <div class="section9_Body-Box-top">
+                        <h4>How old do I need to be to rent a car in Dubai?</h4>
+                        <svg
+                          width="28"
+                          height="28"
+                          viewBox="0 0 28 28"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g id="Group 527">
+                            <circle
+                              id="Ellipse 114"
+                              cx="13.7319"
+                              cy="13.9858"
+                              r="13.2788"
+                              fill="url(#paint0_linear_770_1079)"
+                            />
+                            <g id="Group 526">
+                              <path
+                                id="Vector"
+                                d="M13.7266 8.83203V20.1654"
+                                stroke="white"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                              <path
+                                id="Vector_2"
+                                d="M8.0625 14.498H19.3958"
+                                stroke="white"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </g>
+                          </g>
+                          <defs>
+                            <linearGradient
+                              id="paint0_linear_770_1079"
+                              x1="7.94339"
+                              y1="-17.4603"
+                              x2="33.4663"
+                              y2="-9.35778"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#B27F2A" />
+                              <stop offset="0.778773" stop-color="#FFEA7C" />
+                              <stop offset="1" stop-color="#B27F2A" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </div>
+                      <div class="section9_Body-Box-bottom">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Laudantium veritatis architecto maxime mollitia harum nihil,
+                          quaerat fugiat nam rerum incidunt necessitatibus. Et quis
+                          amet, tenetur suscipit labore quos tempora sed?
+                        </p>
+                      </div>
+                    </div>
+                    <div class="section9_Body-Box">
+                      <div class="section9_Body-Box-top">
+                        <h4>What documents do I need to rent a car in Dubai?</h4>
+                        <svg
+                          width="28"
+                          height="28"
+                          viewBox="0 0 28 28"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g id="Group 527">
+                            <circle
+                              id="Ellipse 114"
+                              cx="13.7319"
+                              cy="13.9858"
+                              r="13.2788"
+                              fill="url(#paint0_linear_770_1079)"
+                            />
+                            <g id="Group 526">
+                              <path
+                                id="Vector"
+                                d="M13.7266 8.83203V20.1654"
+                                stroke="white"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                              <path
+                                id="Vector_2"
+                                d="M8.0625 14.498H19.3958"
+                                stroke="white"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </g>
+                          </g>
+                          <defs>
+                            <linearGradient
+                              id="paint0_linear_770_1079"
+                              x1="7.94339"
+                              y1="-17.4603"
+                              x2="33.4663"
+                              y2="-9.35778"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#B27F2A" />
+                              <stop offset="0.778773" stop-color="#FFEA7C" />
+                              <stop offset="1" stop-color="#B27F2A" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </div>
+                      <div class="section9_Body-Box-bottom">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          Voluptatum sapiente eligendi id temporibus omnis,
+                          dignissimos repudiandae. Eos, laborum dolorum mollitia
+                          perspiciatis nulla provident consequatur harum, accusamus
+                          qui molestiae aperiam ea!
+                        </p>
+                      </div>
+                    </div>
+                    <div class="section9_Body-Box">
+                      <div class="section9_Body-Box-top">
+                        <h4>Can I rent a car with a debit card?</h4>
+                        <svg
+                          width="28"
+                          height="28"
+                          viewBox="0 0 28 28"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g id="Group 527">
+                            <circle
+                              id="Ellipse 114"
+                              cx="13.7319"
+                              cy="13.9858"
+                              r="13.2788"
+                              fill="url(#paint0_linear_770_1079)"
+                            />
+                            <g id="Group 526">
+                              <path
+                                id="Vector"
+                                d="M13.7266 8.83203V20.1654"
+                                stroke="white"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                              <path
+                                id="Vector_2"
+                                d="M8.0625 14.498H19.3958"
+                                stroke="white"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </g>
+                          </g>
+                          <defs>
+                            <linearGradient
+                              id="paint0_linear_770_1079"
+                              x1="7.94339"
+                              y1="-17.4603"
+                              x2="33.4663"
+                              y2="-9.35778"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#B27F2A" />
+                              <stop offset="0.778773" stop-color="#FFEA7C" />
+                              <stop offset="1" stop-color="#B27F2A" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </div>
+                      <div class="section9_Body-Box-bottom">
+                        <p>
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                          Sed ut possimus architecto quaerat suscipit adipisci, autem
+                          perspiciatis aut harum necessitatibus tenetur praesentium at
+                          pariatur, explicabo maxime voluptatum laudantium.
+                          Laudantium, accusantium?
+                        </p>
+                      </div>
+                    </div>
+                    <div class="section9_Body-Box">
+                      <div class="section9_Body-Box-top">
+                        <h4>Is insurance included in the car rental price?</h4>
+                        <svg
+                          width="28"
+                          height="28"
+                          viewBox="0 0 28 28"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g id="Group 527">
+                            <circle
+                              id="Ellipse 114"
+                              cx="13.7319"
+                              cy="13.9858"
+                              r="13.2788"
+                              fill="url(#paint0_linear_770_1079)"
+                            />
+                            <g id="Group 526">
+                              <path
+                                id="Vector"
+                                d="M13.7266 8.83203V20.1654"
+                                stroke="white"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                              <path
+                                id="Vector_2"
+                                d="M8.0625 14.498H19.3958"
+                                stroke="white"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </g>
+                          </g>
+                          <defs>
+                            <linearGradient
+                              id="paint0_linear_770_1079"
+                              x1="7.94339"
+                              y1="-17.4603"
+                              x2="33.4663"
+                              y2="-9.35778"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#B27F2A" />
+                              <stop offset="0.778773" stop-color="#FFEA7C" />
+                              <stop offset="1" stop-color="#B27F2A" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </div>
+                      <div class="section9_Body-Box-bottom">
+                        <p>
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                          Architecto quaerat ipsam facere unde molestias nemo suscipit
+                          nobis repudiandae tempora odit quia rerum facilis, eum
+                          corrupti. Inventore est aperiam ipsam minus.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="section9_Body-Box">
+                      <div class="section9_Body-Box-top">
+                        <h4>
+                          Are there any restrictions on driving in the desert with a
+                          rental car?
+                        </h4>
+                        <svg
+                          width="28"
+                          height="28"
+                          viewBox="0 0 28 28"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g id="Group 527">
+                            <circle
+                              id="Ellipse 114"
+                              cx="13.7319"
+                              cy="13.9858"
+                              r="13.2788"
+                              fill="url(#paint0_linear_770_1079)"
+                            />
+                            <g id="Group 526">
+                              <path
+                                id="Vector"
+                                d="M13.7266 8.83203V20.1654"
+                                stroke="white"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                              <path
+                                id="Vector_2"
+                                d="M8.0625 14.498H19.3958"
+                                stroke="white"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </g>
+                          </g>
+                          <defs>
+                            <linearGradient
+                              id="paint0_linear_770_1079"
+                              x1="7.94339"
+                              y1="-17.4603"
+                              x2="33.4663"
+                              y2="-9.35778"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#B27F2A" />
+                              <stop offset="0.778773" stop-color="#FFEA7C" />
+                              <stop offset="1" stop-color="#B27F2A" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </div>
+                      <div class="section9_Body-Box-bottom">
+                        <p>
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                          Placeat beatae explicabo optio ab obcaecati quaerat et modi
+                          ad tempore corporis sit perferendis tempora, adipisci
+                          laborum, sint nobis, ipsam impedit? Ipsum.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      
+                <a href="#" class="section9__hbtn d-none section9__hbtna">View All</a>
+              </div>
+            </section>
+        </main>
+      <footer class="footer">
+        <div class="footer__top grid grid-col80">
+          <div class="block__inner">
+            <ul class="list">
+              <li><a href="aboutus.html">About</a></li>
+              <li><a href="#">Brands</a></li>
+              <li><a href="blog.html">Blogs</a></li>
+              <li><a href="faq.html">FAQ’s</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__Bottom grid grid-col80">
+          <div class="block__inner">
+            <div class="footer__Bottom-">
+              <a href="index.html">
+                <img src="webImages/logo3.svg" alt="" />
+              </a>
+            </div>
+            <div class="footer__Bottom_BoxM d-none">
+              <ul>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="#">Promos</a></li>
+                <li><a href="blog.html">Blogs</a></li>
+                <li><a href="faq.html">FAQ’s</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer__Bottom_">
+              <div class="footer__Bottom_Box">
+                <div class="h4">Address</div>
+                <p>
+                  Falcon Drive Car Rental is offering a diverse choice of vehicles
+                  at low costs while maintaining the best levels of quality,
+                  dependability, and customer service.
+                </p>
+              </div>
+            
+              <div class="footer__Bottom_Box">
+                <div class="h4">Our Address</div>
+                <div class="footer__Bottom_Box_">
+                  <div class="footer__Bottom_Box_2">
+                    <div class="h5">LOCATION:</div>
+                    <ul class="list">
+                      <li>
+                        City Walk, Building 21 A - Unit 4, 58 A Rd - Al Wasl -
+                        Dubai
+                      </li>
+                    </ul>
+                    <br />
+                    <div class="h5">Join Us:</div>
+                    <ul class="list">
+                      <li>
+                        <a href="#" class="aabor">operations@falcondrive.ae</a>
+                      </li>
+                    </ul>
+                    <br />
+                    <div class="h5">Call us:</div>
+                    <ul class="list">
+                      <li>
+                        <a href="#"
+                          ><a href="#" class="aabor">+971 50 820 1505</a></a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="footer__Bottom_Box">
+                <div class="footer__Bottom_Box_2">
+                  <div class="h4">Working hours</div>
+                  <ul class="list">
+                    <li>Mon - Sat: 8:30 - 8:30</li>
+                    <li>Sunday: 10:00 - 8:30</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="footer__Bottom_Box">
+                <div class="footernum">
+                  <div class="footernum_l">
+                    <img src="webImages/social/phone.webp" alt="" />
+                  </div>
+                  <div class="footernum_r">
+                    <h5 class="h5">Call Us now</h5>
+                    <ul class="list">
+                      <li>
+                        <a href="#">800 78425</a> <span>|</span>
+                        <a href="#">971 4 408 7300</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="footernum">
+                  <div class="footernum_l">
+                    <img src="webImages/social/email.webp" alt="" />
+                  </div>
+                  <div class="footernum_r">
+                    <div class="h5">Say Hello!</div>
+                    <ul class="list">
+                      <li><a href="#">bookings@quicklease.ae</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <br />
+                <ul class="social__icon list d-flex">
+                  <li>
+                    <a href="#"><img src="webImages/social/1.webp" alt="" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="webImages/social/2.webp" alt="" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="webImages/social/3.webp" alt="" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="webImages/social/4.webp" alt="" /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__Bottomterm">
+              <ul class="list">
+                <li><a href="#">Privacy Policy</a></li>
+                <span>-</span>
+                <li><a href="#"> Terms and Conditions</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Booking Form</h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form
+                  class="needs-validation"
+                  id="booking-form"
+                  method="post"
+                  novalidate="novalidate"
+                >
+                  <input
+                    type="hidden"
+                    name="_token"
+                    value="k7f3wIe8m06cG2UepYHo4sleqf9jhMVOhNxRHcWH"
+                  />
+                  <div class="modal-body">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control custom-form-control"
+                      id="full-name"
+                      placeholder="Full Name"
+                      value=""
+                      required=""
+                    />
+                    <br />
+                    <input
+                      type="email"
+                      name="email"
+                      class="form-control custom-form-control"
+                      id="email"
+                      placeholder="Email Address"
+                      value=""
+                      required=""
+                    />
+                    <br />
+                    <input
+                      type="text"
+                      name="mobile"
+                      class="form-control custom-form-control"
+                      id="mobile"
+                      placeholder="e.g +971 00000000"
+                      value=""
+                      required=""
+                    />
+                    <br />
+                    <textarea
+                      id="message"
+                      rows="3"
+                      name="message"
+                      placeholder="Message"
+                      class="w-100 form-control custom-form-control"
+                    ></textarea>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary"><span>Submit</span></button>
+                    <button
+                      type="button"
+                      class="btn btn-primary-close"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="loader" style="display: none"></div>
+      </footer>
+      <div class="footerbb">
+        <div class="container">
+          © All rights reserved by
+          <a
+            href="https://quickdigitals.ae/"
+            style="color: white; text-decoration: underline"
+            >Quick Digitals</a
+          >.
+        </div>
+      </div>
+      <a
+        href="https://api.whatsapp.com/send?phone=97144087337"
+        id="fc-phone"
+        class="cb-button call_back"
+        target="_blank"
+      >
+        <span class="d-none">whatsapp</span>
+        <div class="cbb-circle"></div>
+        <div class="cbb-circle-fill"></div>
+        <div class="cbb-circle-img">
+          <img
+            src="./webImages/icon/ds.webp"
+            alt="phone"
+            class="faa-ring animated"
+          />
+        </div>
+      </a>
+
+      <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"
+      ></script>
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script src="./js/main.js"></script>
+    </body>
+  </html>

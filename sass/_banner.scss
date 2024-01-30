@@ -1,16 +1,16 @@
 .banner {
   position: relative;
-  background: #000 url(../webImages/banners/1.png) no-repeat;
+  background: #000 url(../webImages/banners/1.webp) no-repeat;
   background-size: cover;
   .block__inner {
     min-width: 0;
   }
-  .sliderbanner  {
+  .sliderbanner {
     height: 100%;
     .swiper-slide {
       opacity: 0;
       transform: scale(0);
-      transition: .5s;
+      transition: 0.5s;
       &-active {
         transform: scale(1);
         opacity: 1;
@@ -56,6 +56,42 @@
     }
     &_center {
       position: relative;
+      &_d {
+        &d {
+          position: absolute;
+          left: 6rem;
+          top: 9.5rem;
+          transform: rotate(-8.886deg);
+          .hh2 {
+            color: #fff;
+            font-size: 2.2rem;
+            font-weight: 400;
+            font-style: italic;
+            text-transform: capitalize;
+            line-height: 1;
+          }
+          .hh3 {
+            color: #fff;
+            font-size: 4.7rem;
+            font-style: italic;
+            font-weight: 700;
+            letter-spacing: -0.1911rem;
+            text-transform: capitalize;
+            line-height: 1;
+            span {
+              color: #f00;
+            }
+          }
+          .hh4 {
+            color: #fff;
+            position: absolute;
+            right: -3rem;
+            bottom: -6.4rem;
+            letter-spacing: .2313rem;
+            text-transform: capitalize;
+          }
+        }
+      }
       .img1 {
         width: 48rem;
       }
@@ -142,12 +178,12 @@
         .btn2 {
           width: 100%;
           border-radius: 0.5rem;
-          border: .3rem solid #F90;
+          border: 0.3rem solid #f90;
           padding: 1.5rem 2rem;
           font-size: 2rem;
           font-weight: 700;
           text-transform: uppercase;
-         color: #000;
+          color: #000;
         }
       }
     }

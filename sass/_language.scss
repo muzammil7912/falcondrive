@@ -1,0 +1,296 @@
+.arabic {
+    direction: rtl;
+    text-align: right;
+    .btn-secondary i {
+        transform: rotate(183deg);
+    }
+    .modal-header .close {
+        margin: 0;
+    }
+    .cb-button {
+        left: 0;
+        right: auto;
+    }
+    .header__left-menu {
+        right: -400rem;
+        left: 0;
+        &.active {
+            left: 0;
+            right: 0;
+
+        }
+    }
+    .banner {
+        &__center {
+            .sliderbanner {
+                direction: ltr;
+            }
+            .img2 {
+                left: auto;
+                right: -27rem;
+                // transform: scaleX(-1);
+            }
+          
+        }
+        &__right {
+            &_ {
+                .img3 {
+                    left: auto;
+                    right: -2rem;
+                    transform: scaleX(-1);
+                }
+            }
+            &_2 {
+                bottom: -1rem;
+                right: auto;
+                left: -1rem;
+            }
+        }
+    }
+
+
+    .section2 {
+        &_m  {
+            img {
+                transform: scaleX(-1);
+                left: auto;
+                right: -8rem;
+            }
+        }
+    }
+
+    .section3 {
+        &__Main  {
+            .cardd1 {
+                &__img {
+                    &B {
+                        left: auto;
+                        right: 3rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .section5 {
+        &Bottom {
+            .section10mySwiper  {
+                direction: ltr;
+            }
+        }
+    }
+
+    .section6  {
+        .h6 {
+            transform: rotate(2.551deg);
+        }
+        .img1 {
+            right: auto;
+            left: 0;
+            transform: scaleX(-1);
+        }
+    }
+    .section7 {
+        &B_leftB_imgb {
+            left: auto;
+            right: 2rem;
+        }
+        &B_rightB_imgb {
+            left: auto;
+            right: 2rem;
+        }
+        &B_rightB_bodybtn,
+        &B_leftB_bodybtn {
+            img {
+                transform: scaleX(-1);
+            }
+        }
+    }
+    .section9 {
+        &_Body {
+            &-Box {
+                &-top {
+                    &::before {
+                        right: 2rem;
+                        left: auto;
+                    }
+                    svg {
+                        right: auto;
+                        left: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .aboutsection {
+        &__left {
+            margin-left: 0;
+            margin-right: auto;
+        }
+        &__right {
+            .img2 {
+                left: auto;
+                right: -8rem;
+            }
+        }
+    }
+    .aboutsection2 {
+        &__right {
+            &M {
+                &r {
+                    li {
+                        padding-left: 0;
+                        padding-right: 3rem;
+
+                        &::before {
+                            right: 0;
+                            left: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .blogInner  {
+        &Main {
+            &Right {
+                .searchBox_input  {
+                    i {
+                        left: 1rem;
+                        right: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    .sectionBrand {
+        &Main {
+            &__left {
+                .form-check {
+                    padding-left: 0;
+                    padding-right: 1.25rem;
+                }
+                &Box {
+                    &-bottom {
+                        .availability  {
+                            .form-check-label {
+                                margin-left: 0;
+                                margin-right: 2.3rem;
+                            }
+                        }
+                    }
+                }
+            }
+            &__right {
+                &Cright {
+                   .h3 {
+                    margin-left: 1rem;
+                    margin-right: 0;
+                   }
+                }
+                &B_Main_right {
+                    &name {
+                        .ses {
+                            margin-right: 1rem;
+                            margin-left: 0;
+                        }
+                    }
+                    &_ {
+                        li {
+                            padding-left: 0;
+                            padding-right: 2.8rem;
+                            &::before {
+                                left: auto;
+                                right: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sectionBrand {
+        &Main2 {
+            &__left {
+                .mySwiper2,.mySwiper  {
+                    direction: ltr;
+                }
+                .features {
+                    li {
+                        &:not(:nth-child(3n)) {
+                            border-right: 0.1rem solid transparent;
+                            border-left: 0.1rem solid #ddd;
+                        }
+                    }
+                    &__img {
+                        img {
+                            transform: scaleX(-1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .section10 {
+        &_Body {
+            &Box {
+                h5 {
+                    padding-left: 0;
+                    padding-right: 2rem;
+                    &::before {
+                        content: '';
+                        left: auto;
+                        right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 979px) {
+    .arabic {
+        .banner__center {
+            .img2 {
+                left: auto;
+                right: auto;
+            }
+        }
+        .section3 {
+            &__Main {
+                .whatweofferswiper {
+                    direction: ltr;
+                }
+                .cardd1 {
+                    &__img {
+                        margin-left: auto;
+                    }
+                }
+            }
+        }
+        .section4  {
+            &Main {
+                .BookingProcessswiper {
+                    direction: ltr;
+                }
+            }
+        }
+
+        .aboutsection {
+            &__right  {
+                .img2 {
+                    left: 0;
+                    right: 0;
+                }
+            }
+        }
+
+    }
+}
